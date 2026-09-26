@@ -31,3 +31,12 @@ Toon
 Token oriented object notation
   Uso conhecido para envio de base de dados como contexto
 
+----
+SPEC:
+
+Contexto: onde isso roda, stack, constraints
+Requisitos: o que deve existir
+Não-requisitos: o que não faz parte ( evita feature creep)
+Critérios de aceite: como validar que terminou
+Contrato: shape de API, formatos de resposta
+Plano de Teste: como verificar
