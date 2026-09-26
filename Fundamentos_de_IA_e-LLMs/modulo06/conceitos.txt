@@ -1,0 +1,33 @@
+Formar o prompt
+1-) Contexto da Tarefa: perfil do agente - persona
+2-) Contexto de tom:
+3-) Dados de Antecedentes, documentos e imagens ( sempre bata na doc atual da lib.. exmp)
+4-) Descrição detalhada da tarefa e regras
+5-) exemplos: ( entrada e saida ) estrutura mental da resposta
+6-) Histórico de conversa:
+7-) Desrição ou pedido imediato
+8-) pensar passo a passo / respirar fundo: fazer validação
+9-) formatação da saida: formato da saida, se vai ser json, texto..
+10-) resposta pre-preenchida: formato de saida, como deve ser a saida final tipo, Coloque sua resposta em: <resposta></resposta> tags..
+
+
+Padrão TOON e JSON
+
+Menos ambiguidade
+Mais previsivel zod ajv yupi
+configuravel
+
+o prompt em json seria:
+{
+"meta": "nome/versão do prompt, idioma, objetivo",
+"role": "o papel, ex.: especialista, revisor, tutor",
+"context": "dado que o modelo precisa saber",
+"task": "o que exatamente fazer",
+"constraints":"limites e regras, não inventar, não extrapolar, etc",
+"output":"formato de saida e validação"
+}
+
+Toon
+Token oriented object notation
+  Uso conhecido para envio de base de dados como contexto
+
